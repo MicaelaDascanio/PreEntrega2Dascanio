@@ -1,0 +1,312 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-index{
+    background-color: rgb(150, 143, 143);
+}
+
+.main-index img{
+    width:100%;
+}
+
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 2fr;
+    /* grid-gap: 10px; */
+    align-items: center;
+    width: 100%;
+    text-align: justify;
+    background-color: rgb(150, 143, 143);
+}
+
+.container h1{
+    padding: 2vh;
+}
+
+.container img{
+    width: 550px;
+    margin: 5vh;
+}
+
+.container p{
+    /* margin: 2vh; */
+    font-size: 19px;
+
+}
+
+h1{
+    text-align: center;
+}
+
+
+header img{
+    width: 180px;
+    padding: 1vh;
+}
+/* NAV */
+
+
+nav ul li, footer ul li{
+    display: inline;
+    margin: 2vh;
+}
+
+header{
+    background-color:#A7A5C6;
+    height: 8vh;
+    width: 100%;
+}
+
+header li{
+    list-style: none;
+}
+
+@font-face {
+    font-family: "Oswald" ;
+    src: url(../recursos/typo/OpenSans-VariableFont_wdth\,wght.ttf)
+}
+
+@font-face {
+    font-family:"Oswald" ;
+    src: url(../recursos/typo/Oswald-VariableFont_wght.ttf);
+}
+
+h1{
+    font-family: "Oswald";
+    font-size: 70px;
+    color:black;
+}
+
+h2{
+    font-family: "Oswald";
+    font-size: 40px;
+    color:black;
+}
+
+h3{
+    font-family: "Oswald";
+    font-size: 25px;
+    color:black;
+}
+p{
+    font-family: "Oswald";
+    font-size: 20px;
+    color:black;
+
+}
+
+.nav-link{
+    color: black;
+}
+
+
+.nav-link:hover{
+    color: grey;
+    font-weight: bold;
+    text-align: center;
+
+}
+nav ul li a{
+    font-family: "Oswald";
+    font-size: 17px;
+
+}
+
+footer  ul li a {
+    font-family: "Oswald";
+    font-size: 15px;
+    color:grey;
+}
+
+footer p{
+    font-family: "Oswald";
+    font-size: 15px;
+    color:grey;
+}
+
+footer ul li a, nav ul li a{
+    text-decoration: none;
+}
+
+
+
+.flex-box{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+}
+
+.flex-footer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.flex-footer div{
+    text-align: center;
+    padding-top: 2vh;
+}
+
+main{
+    height: 260vh;
+}
+
+footer{
+height: 8vh;
+}
+
+.subtitulog{
+    margin: 3vh;
+}
+
+/* GRID */
+.gallery-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 220px;
+    padding: 20px; 
+    grid-gap: 10px; 
+}
+.gallery_img{
+    height: 100%;
+    width: 100%;
+  object-fit: cover;
+}
+
+ 
+.gallery-item:nth-child(6) { 
+    grid-column-start:span 2;
+    grid-column-start: span 2 ;
+}
+
+
+  
+.gallery-item:nth-child(1) { 
+    grid-row-start: span 2; 
+   
+}
+
+.gallery-item:nth-child(2) { 
+    grid-row-start: span 2; 
+   
+}
+
+
+.gallery-item:nth-child(5) { 
+    grid-row-start: span 2; 
+   }
+
+   .gallery-item:nth-child(7) { 
+    grid-column-start:span 2;
+}
+
+.gallery-item:nth-child(9) { 
+    grid-column-start:span 2;
+}
+
+
+.gallery-item:nth-child(10) { 
+    grid-column-start:span 2;
+}
+
+.container-contacto{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    height: fit-content;
+
+}
+
+
+.container-contacto img{
+    padding: 10vh;
+    
+}
+
+/* VERSION MOBILE */
+  @media (max-width: 375px){
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .container{
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);
+     grid-template-rows: 2fr;
+     width: fit-content;
+     
+    }
+
+    .container p{
+        font-size: 14px;
+       padding-right: 1vh;
+    } 
+.container h1{
+    font-size: 40px;
+    padding: 2vh;
+}
+    .container img{
+        padding: 2vh;
+            width: 85%;
+            padding-right: 7vh;
+        
+    }
+
+    .imagen{
+        width: 100%
+    }
+
+
+    footer{
+        width: fit-content;
+    }
+
+    main{
+        height: 142vh;
+    }
+ 
+    
+    header{
+        height: fit-content;
+    }
+
+    .flex-box {
+        display: flex;
+        justify-content: flex-start;
+        align-content: center;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    .gallery-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 2fr;
+        padding: 20px; 
+        grid-gap: 10px; 
+    }
+
+    .gallery-item:nth-child(11) { 
+        grid-row-start:span 2;
+    }
+} 
+ 
