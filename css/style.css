@@ -4,9 +4,7 @@
 }
 
  /* MAIN INDEX */
-.main-index{
-    /* background-color: rgb(150, 143, 143); */
-}
+
 
 .main-index img{
     width:100%;
@@ -242,7 +240,7 @@ footer ul{
 footer  ul li a {
     font-family: "Oswald";
     font-size: 15px;
-    color:grey;
+    color: grey;
 }
 
 footer p{
@@ -299,6 +297,7 @@ footer ul li a, nav ul li a{
     align-items: center;
     padding-top: 10vh;
 }
+
 
 .boton{
     background-color: rgb(170, 168, 170);
@@ -375,7 +374,7 @@ footer ul li a, nav ul li a{
 }
 
 /* VERSION MOBILE */
-  @media (max-width: 375px){
+  @media (max-width: 768px),(max-width:1023px) {
 
     *{
         margin: 0;
@@ -422,6 +421,8 @@ footer ul li a, nav ul li a{
     }
 } 
  
+
+
 @media (min-width: 992px){
 .navbar-expand-lg .navbar-collapse {
     display: flex!important;
