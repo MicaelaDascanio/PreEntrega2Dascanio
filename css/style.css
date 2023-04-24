@@ -58,10 +58,7 @@ header img{
     padding: 5px;
 }
 
-nav p, nav li a{
-    color: white;
-    
-}
+
 
 nav ul li, footer ul li{
     display: inline;
