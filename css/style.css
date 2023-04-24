@@ -2,7 +2,7 @@
     padding: 0px;
     margin: 0px;
 }
-
+ /* MAIN INDEX */
 .main-index{
     background-color: rgb(150, 143, 143);
 }
@@ -15,7 +15,7 @@ main{
     height: 100%;
     width: 100%;
 }
-
+ /* GRID INDEX */
 .container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -50,13 +50,18 @@ h1{
     text-align: center;
 }
 
-
-header img{
-    width: 180px;
-    padding: 2vh;
-}
 /* NAV */
 
+header img{
+    width: 120px;
+    margin-left: 15px;
+    padding: 5px;
+}
+
+nav p, nav li a{
+    color: white;
+    
+}
 
 nav ul li, footer ul li{
     display: inline;
@@ -65,7 +70,6 @@ nav ul li, footer ul li{
 
 header{
     background-color:#A7A5C6;
-    height: 8vh;
     width: 100%;
 }
 
