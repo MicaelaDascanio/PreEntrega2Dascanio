@@ -1,0 +1,10 @@
+ // VARIABLES VAN SIEMPRE ARRIBA DE TODO
+@import "./utilities/colors";
+
+// RESETEO
+@import "./utilities/reset.scss";
+
+// SECCIONES
+@import "./sections/header.scss";
+@import "./sections/main-index.scss";
+@import "./sections/main-biografia.scss"

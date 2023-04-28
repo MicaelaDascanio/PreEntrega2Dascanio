@@ -1,0 +1,42 @@
+header {
+
+    img {
+        width: 38%;
+        margin-left: 0px;
+        padding: 0px;
+
+    }
+
+
+
+}
+
+.bg-body-tertiary {
+    background-color: #A7A5C6 !important;
+
+}
+
+.nav-link.active,
+.nav-link {
+    font-family: "Oswald";
+    font-size: 17px;
+    padding: 2vh; 
+    color: black;
+
+    &:hover {
+        color: grey;
+        font-weight: bold;
+        text-align: center;
+    }
+}
+
+
+nav {
+    ul {
+        li {
+            display: inline;
+            margin: 2vh;
+        }
+    }
+}
+

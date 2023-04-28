@@ -1,0 +1,87 @@
+* {
+  padding: 0px;
+  margin: 0px; }
+
+header img {
+  width: 38%;
+  margin-left: 0px;
+  padding: 0px; }
+
+.bg-body-tertiary {
+  background-color: #A7A5C6 !important; }
+
+.nav-link.active,
+.nav-link {
+  font-family: "Oswald";
+  font-size: 17px;
+  padding: 2vh;
+  color: black; }
+  .nav-link.active:hover,
+  .nav-link:hover {
+    color: grey;
+    font-weight: bold;
+    text-align: center; }
+
+nav ul li {
+  display: inline;
+  margin: 2vh; }
+
+.main-index {
+  min-height: 100vh; }
+  .main-index img {
+    width: 100%; }
+  .main-index h1 {
+    padding: 5vh;
+    text-align: center; }
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-gap: 5vh;
+  padding: 4vh;
+  align-items: center;
+  padding-bottom: 5vh; }
+  .container h1 {
+    text-align: left; }
+  .container img {
+    width: 100%;
+    padding: 3vh;
+    margin-top: 14vh; }
+  .container p {
+    font-size: 19px;
+    text-align: justify; }
+
+.main__biografia {
+  display: inline; }
+  .main__biografia img {
+    width: 100%; }
+
+.list-group-item img {
+  width: 15%; }
+
+.card {
+  grid-area: card; }
+  .card .card__titulo {
+    color: white;
+    padding: 5px; }
+
+.biografia {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "historia historia historia card";
+  align-items: start;
+  justify-items: center;
+  justify-content: space-around;
+  align-content: center; }
+
+.resto {
+  padding-left: 70px;
+  padding-right: 70px;
+  text-align: justify; }
+
+.biografia__historia {
+  grid-area: historia;
+  padding-left: 70px; }
+  .biografia__historia p {
+    text-align: justify;
+    overflow: break-word; }

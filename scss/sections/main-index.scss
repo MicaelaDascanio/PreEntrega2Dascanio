@@ -1,0 +1,37 @@
+.main-index {
+    img {
+        width: 100%;
+    }
+
+    min-height: 100vh;
+    h1{
+        padding: 5vh;
+        text-align: center;
+    }
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr); 
+    grid-gap: 5vh;
+    padding: 4vh;
+    align-items: center;
+    padding-bottom: 5vh;
+    h1{
+        text-align: left;
+    }
+
+    img{
+        width: 100%;
+        padding: 3vh;
+        margin-top: 14vh;
+    }
+
+    p{
+        font-size: 19px;
+        text-align: justify;
+    
+    }
+
+}

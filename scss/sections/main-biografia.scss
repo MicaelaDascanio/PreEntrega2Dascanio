@@ -1,0 +1,51 @@
+.main__biografia {
+    display: inline;
+
+    img {
+        width: 100%;
+    }
+}
+
+.list-group-item {
+    img {
+        width: 15%;
+    }
+}
+
+.card {
+    grid-area: card;
+
+    .card__titulo {
+        color: white;
+        padding: 5px;
+    }
+
+}
+
+
+
+.biografia {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "historia historia historia card";
+    align-items: start;
+    justify-items: center;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.resto {
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align: justify;
+}
+
+.biografia__historia {
+    grid-area: historia;
+    padding-left: 70px;
+    p {
+        text-align: justify;
+        overflow: break-word;
+
+    }
+}
