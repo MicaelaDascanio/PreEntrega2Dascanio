@@ -1,0 +1,26 @@
+
+
+.formulario{
+    display: flex;
+    flex: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    gap: 9vh;
+    align-items: center;
+    padding-top: 10vh;
+    width: 100%;
+}
+
+.boton{
+    background-color: rgb(158, 157, 158);
+    border-color: rgb(206, 202, 202);
+    font-family: "OpenSans";
+    font-size: 20px;
+    color: white;
+}
+
+.form-label{
+    font-family: "OpenSans";
+    font-size: 16px;
+}

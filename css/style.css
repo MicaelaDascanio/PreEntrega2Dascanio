@@ -1,6 +1,36 @@
+@font-face {
+  font-family: "OpenSans";
+  src: url(../recursos/typo/OpenSans-VariableFont_wdth\,wght.ttf); }
+
+@font-face {
+  font-family: "Oswald";
+  src: url(../recursos/typo/Oswald-VariableFont_wght.ttf); }
+
 * {
   padding: 0px;
   margin: 0px; }
+
+h1 {
+  padding: 5vh;
+  text-align: center;
+  font-family: "Oswald";
+  font-size: 70px;
+  color: black; }
+
+h2 {
+  font-family: "Oswald";
+  font-size: 40px;
+  color: black; }
+
+h3 {
+  font-family: "Oswald";
+  font-size: 25px;
+  color: black; }
+
+p {
+  font-family: "Oswald";
+  font-size: 18px;
+  color: black; }
 
 header img {
   width: 38%;
@@ -25,6 +55,10 @@ header img {
 nav ul li {
   display: inline;
   margin: 2vh; }
+
+main {
+  min-height: 100vh;
+  /* width: 100%; */ }
 
 .main-index {
   min-height: 100vh; }
@@ -85,3 +119,119 @@ nav ul li {
   .biografia__historia p {
     text-align: justify;
     overflow: break-word; }
+
+.biografia__resto {
+  padding-left: 70px;
+  padding-right: 70px;
+  text-align: justify; }
+
+.cursiva {
+  font-style: italic; }
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 220px;
+  padding: 20px;
+  grid-gap: 10px; }
+
+.gallery_img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover; }
+
+.gallery-item:nth-child(6) {
+  grid-column-start: span 2;
+  grid-column-start: span 2; }
+
+.gallery-item:nth-child(1) {
+  grid-row-start: span 2; }
+
+.gallery-item:nth-child(2) {
+  grid-row-start: span 2; }
+
+.gallery-item:nth-child(5) {
+  grid-row-start: span 2; }
+
+.gallery-item:nth-child(7) {
+  grid-column-start: span 2; }
+
+.gallery-item:nth-child(9) {
+  grid-column-start: span 2; }
+
+.gallery-item:nth-child(10) {
+  grid-column-start: span 2; }
+
+.disco {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center; }
+  .disco h2 {
+    padding: 3vh;
+    font-size: 50px;
+    width: 1em;
+    text-align: justify;
+    padding: 2px; }
+
+.card-text-discos {
+  text-align: center; }
+
+.btn.btn-primary {
+  align-items: center;
+  background-color: #191414;
+  border: none; }
+  .btn.btn-primary img {
+    width: 8%; }
+
+.card h1 {
+  color: white;
+  padding: 5px; }
+
+.card h5 {
+  text-align: center; }
+
+.formulario {
+  display: flex;
+  flex: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  gap: 9vh;
+  align-items: center;
+  padding-top: 10vh;
+  width: 100%; }
+
+.boton {
+  background-color: #9e9d9e;
+  border-color: #cecaca;
+  font-family: "OpenSans";
+  font-size: 20px;
+  color: white; }
+
+.form-label {
+  font-family: "OpenSans";
+  font-size: 16px; }
+
+.footer__flex {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 10vh; }
+  .footer__flex p {
+    font-family: "Oswald";
+    font-size: 15px;
+    color: grey; }
+  .footer__flex li {
+    display: inline;
+    list-style: none;
+    padding: 3px; }
+  .footer__flex a {
+    font-family: "Oswald";
+    font-size: 15px;
+    color: grey;
+    text-decoration: none;
+    text-align: center; }

@@ -1,0 +1,41 @@
+.disco {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+
+    h2{
+        padding: 3vh;
+        font-size: 50px;
+        width: 1em;
+        text-align: justify;
+        padding: 2px;
+    }
+}
+
+.card-text-discos {
+    text-align: center;
+}
+
+
+.btn.btn-primary {
+    align-items: center;
+    background-color: #191414;
+    border: none;
+
+    img {
+        width: 8%;
+    }
+}
+
+.card {
+    h1{
+    color: white;
+    padding: 5px;
+}
+ h5{
+    text-align: center;
+}
+
+}
