@@ -40,3 +40,26 @@ main{
     }
 
 }
+
+@media (max-width: 768px),
+(max-width:1023px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        margin: 0;
+        padding: 2vh;
+        padding-bottom: 4vh;
+        display: block;
+
+        img {
+            margin: 0;
+            padding: 0;
+            display: block;
+            padding-top: 2vh;
+        }
+
+    }    }

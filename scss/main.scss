@@ -2,11 +2,13 @@
 @import "./utilities/colors";
 @import "./utilities/typo";
 
-// RESETEO
+@import "./sections/titles-text";
+
 @import "./utilities/reset.scss";
+@import "./utilities/extend-y-mixin";
 
 // SECCIONES
-@import "./utilities/titles-text";
+
 @import "./sections/header.scss";
 @import "./sections/main-index.scss";
 @import "./sections/main-biografia.scss";

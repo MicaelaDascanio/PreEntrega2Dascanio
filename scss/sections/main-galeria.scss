@@ -2,8 +2,10 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 220px;
-    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
     grid-gap: 10px;
+
 
 
 }
@@ -51,3 +53,18 @@
         grid-column-start: span 2;
     }
 }
+
+@media (max-width: 768px),
+(max-width:1023px) {
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 2fr;
+    padding: 20px;
+    grid-gap: 10px;
+    margin: 0;
+}
+
+.gallery-item:nth-child(11) {
+    grid-row-start: span 2;
+}}

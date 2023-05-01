@@ -1,36 +1,30 @@
-@font-face {
-  font-family: "OpenSans";
-  src: url(../recursos/typo/OpenSans-VariableFont_wdth\,wght.ttf); }
-
-@font-face {
-  font-family: "Oswald";
-  src: url(../recursos/typo/Oswald-VariableFont_wght.ttf); }
-
-* {
-  padding: 0px;
-  margin: 0px; }
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;1,300;1,400&display=swap");
+h1, h2, h3, h4, h5 {
+  font-family: "Oswald", sans-serif; }
 
 h1 {
   padding: 5vh;
   text-align: center;
-  font-family: "Oswald";
   font-size: 70px;
   color: black; }
 
 h2 {
-  font-family: "Oswald";
   font-size: 40px;
   color: black; }
 
 h3 {
-  font-family: "Oswald";
   font-size: 25px;
   color: black; }
 
-p {
-  font-family: "Oswald";
+p, li, a {
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 18px;
   color: black; }
+
+* {
+  padding: 0px;
+  margin: 0px; }
 
 header img {
   width: 38%;
@@ -55,6 +49,16 @@ header img {
 nav ul li {
   display: inline;
   margin: 2vh; }
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: flex-end; }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: var(--bs-navbar-nav-link-padding-x);
+    padding-left: var(--bs-navbar-nav-link-padding-x);
+    padding: 3vh; } }
 
 main {
   min-height: 100vh;
@@ -85,25 +89,49 @@ main {
     font-size: 19px;
     text-align: justify; }
 
+@media (max-width: 768px), (max-width: 1023px) {
+  * {
+    margin: 0;
+    padding: 0; }
+  .container {
+    margin: 0;
+    padding: 2vh;
+    padding-bottom: 4vh;
+    display: block; }
+    .container img {
+      margin: 0;
+      padding: 0;
+      display: block;
+      padding-top: 2vh; } }
+
 .main__biografia {
   display: inline; }
-  .main__biografia img {
-    width: 100%; }
+
+.card-img-top {
+  width: 100%; }
 
 .list-group-item img {
   width: 15%; }
 
 .card {
-  grid-area: card; }
-  .card .card__titulo {
+  grid-area: card;
+  padding-bottom: 3px; }
+  .card h2 {
     color: white;
-    padding: 5px; }
+    padding: 5px;
+    background-color: #633863;
+    margin: 5px;
+    text-align: center; }
+  .card h5 {
+    font-size: 18px; }
+  .card li {
+    font-size: 15px; }
 
 .biografia {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-areas: "historia historia historia card";
-  align-items: start;
+  align-items: center;
   justify-items: center;
   justify-content: space-around;
   align-content: center; }
@@ -128,11 +156,31 @@ main {
 .cursiva {
   font-style: italic; }
 
+.btn.btn-primary {
+  align-items: center;
+  background-color: #191414;
+  border: none; }
+
+@media (min-width: 1478px) {
+  .card-img-top {
+    width: 40%;
+    display: block;
+    margin: auto; }
+  .card h2 {
+    color: white;
+    padding: 0px;
+    text-align: center; }
+  .card h5 {
+    font-size: 16px; }
+  .card .card h5 {
+    font-size: 16px; } }
+
 .gallery-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 220px;
-  padding: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
   grid-gap: 10px; }
 
 .gallery_img {
@@ -162,12 +210,24 @@ main {
 .gallery-item:nth-child(10) {
   grid-column-start: span 2; }
 
+@media (max-width: 768px), (max-width: 1023px) {
+  .gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 2fr;
+    padding: 20px;
+    grid-gap: 10px;
+    margin: 0; }
+  .gallery-item:nth-child(11) {
+    grid-row-start: span 2; } }
+
 .disco {
   display: flex;
   flex-wrap: wrap;
   align-content: center;
   justify-content: space-evenly;
-  align-items: center; }
+  align-items: center;
+  padding-top: 40px; }
   .disco h2 {
     padding: 3vh;
     font-size: 50px;
@@ -181,16 +241,24 @@ main {
 .btn.btn-primary {
   align-items: center;
   background-color: #191414;
-  border: none; }
+  border: none;
+  font-family: "Oswald";
+  font-size: 17px; }
   .btn.btn-primary img {
-    width: 8%; }
+    width: 8%;
+    margin: 2px; }
 
 .card h1 {
   color: white;
   padding: 5px; }
 
 .card h5 {
-  text-align: center; }
+  text-align: center;
+  font-family: "Oswald"; }
+
+.card_img {
+  width: 100%;
+  padding: 8px; }
 
 .formulario {
   display: flex;
@@ -204,22 +272,19 @@ main {
   width: 100%; }
 
 .boton {
-  background-color: #9e9d9e;
-  border-color: #cecaca;
-  font-family: "OpenSans";
-  font-size: 20px;
-  color: white; }
-
-.form-label {
-  font-family: "OpenSans";
-  font-size: 16px; }
+  background-color: #633863;
+  border-color: #633863;
+  font-family: "Oswald", sans-serif;
+  font-size: 25px;
+  color: white;
+  padding: 7px; }
 
 .footer__flex {
   display: flex;
-  justify-content: center;
   align-content: center;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-end;
   height: 10vh; }
   .footer__flex p {
     font-family: "Oswald";

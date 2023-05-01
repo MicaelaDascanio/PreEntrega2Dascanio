@@ -12,7 +12,12 @@
         text-align: justify;
         padding: 2px;
     }
+
+    padding-top: 40px;
+
+  
 }
+
 
 .card-text-discos {
     text-align: center;
@@ -26,7 +31,14 @@
 
     img {
         width: 8%;
+        margin: 2px;
     }
+            font-family: "Oswald";
+            font-size: 17px;
+        
+        
+   
+
 }
 
 .card {
@@ -36,6 +48,12 @@
 }
  h5{
     text-align: center;
+  font-family: "Oswald";
+}
+  
 }
 
+.card_img {
+width: 100%;
+padding: 8px;
 }

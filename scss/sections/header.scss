@@ -12,7 +12,7 @@ header {
 }
 
 .bg-body-tertiary {
-    background-color: #A7A5C6 !important;
+    background-color: $lila !important;
 
 }
 
@@ -40,3 +40,15 @@ nav {
     }
 }
 
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+        justify-content: flex-end;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: var(--bs-navbar-nav-link-padding-x);
+        padding-left: var(--bs-navbar-nav-link-padding-x);
+        padding: 3vh;
+    }   }

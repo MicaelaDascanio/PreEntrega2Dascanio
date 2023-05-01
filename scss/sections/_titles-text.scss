@@ -1,0 +1,30 @@
+
+h1, h2, h3, h4, h5{
+
+    font-family: $titulo;
+}
+
+h1 {
+    padding: 5vh;
+    text-align: center;
+    font-size: 70px;
+    color: black;
+}
+
+h2 {
+
+    font-size: 40px;
+    color: black;
+}
+
+h3 {
+
+    font-size: 25px;
+    color: black;
+}
+
+p, li, a {
+    font-family: $parrafos;
+    font-size: 18px;
+    color: black;
+}

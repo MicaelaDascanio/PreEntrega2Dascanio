@@ -13,14 +13,14 @@
 }
 
 .boton{
-    background-color: rgb(158, 157, 158);
-    border-color: rgb(206, 202, 202);
-    font-family: "OpenSans";
-    font-size: 20px;
+    background-color: $violeta;
+    border-color: $violeta;
+    font-family: $titulo;
+    font-size: 25px;
     color: white;
+    padding: 7px;
 }
 
-.form-label{
-    font-family: "OpenSans";
-    font-size: 16px;
-}
+
+
+
