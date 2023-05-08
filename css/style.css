@@ -218,7 +218,7 @@ main {
     margin: 0;
     padding: 5%;
     padding-bottom: 2%;
-    font-size: 65px; }
+    font-size: 55px; }
   .biografia__resto,
   .biografia__historia {
     margin: 3%;
@@ -273,7 +273,7 @@ main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 2fr;
-    padding: 20px;
+    padding: 5px;
     grid-gap: 10px;
     margin: 0; }
   .gallery-item:nth-child(11) {
@@ -333,10 +333,6 @@ main {
       width: 80% !important;
       margin: 0;
       padding: 0; }
-    .disco h1 {
-      font-size: 65px;
-      margin: 0;
-      padding: 0; }
     .disco div {
       width: fit-content; } }
 
@@ -350,6 +346,9 @@ main {
   padding: 10px; }
   .formulario img {
     width: 100%; }
+  .formulario label {
+    font-family: "Oswald", sans-serif;
+    font-size: 20px; }
 
 .foto {
   width: 40%; }
@@ -364,6 +363,9 @@ main {
   font-size: 25px;
   color: white;
   padding: 5px; }
+
+.nombre {
+  margin-bottom: 1rem; }
 
 @media (max-width: 768px), (max-width: 1023px) {
   .formulario {

@@ -12,6 +12,11 @@
     }
 
     padding: 10px;
+
+    label{
+        font-family: $titulo;
+        font-size: 20px;
+    }
 }
 
 .foto {
@@ -31,6 +36,10 @@
     padding: 5px;
     
    
+}
+
+.nombre{
+    margin-bottom: 1rem;
 }
 
 @media (max-width: 768px),
