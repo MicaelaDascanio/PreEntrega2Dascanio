@@ -1,6 +1,4 @@
-
-
-.formulario{
+.formulario {
     display: flex;
     flex: wrap;
     flex-direction: row;
@@ -12,7 +10,7 @@
     width: 100%;
 }
 
-.boton{
+.boton {
     background-color: $violeta;
     border-color: $violeta;
     font-family: $titulo;
@@ -21,6 +19,21 @@
     padding: 7px;
 }
 
+@media (max-width: 768px),
+(max-width:1023px) {
+    .formulario {
+        display: block;
+        padding: 2vh;
 
+        img {
+            margin: auto;
+            width: 100%;
+            padding: 2vh;
+        }
 
-
+        .boton {
+            padding: 2px;
+            font-size: 20px;
+        }
+    }
+}

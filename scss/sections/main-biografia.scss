@@ -4,7 +4,7 @@
 
 .card-img-top {
     width: 100%;
-} 
+}
 
 .list-group-item {
     img {
@@ -15,23 +15,23 @@
 .card {
     grid-area: card;
 
-   h2 {
+    h2 {
         color: white;
         padding: 5px;
         background-color: $violeta;
- margin: 5px;
- text-align: center;
-}
+        margin: 5px;
+        text-align: center;
+    }
 
-h5{
-    font-size: 18px;
-}
+    h5 {
+        font-size: 18px;
+    }
 
-li{
-    font-size: 15px;
-}
+    li {
+        font-size: 15px;
+    }
 
-padding-bottom: 3px;
+    padding-bottom: 3px;
 }
 
 
@@ -57,6 +57,7 @@ padding-bottom: 3px;
 .biografia__historia {
     grid-area: historia;
     padding-left: 70px;
+
     p {
         text-align: justify;
         overflow: break-word;
@@ -64,13 +65,13 @@ padding-bottom: 3px;
     }
 }
 
-.biografia__resto{
+.biografia__resto {
     padding-left: 70px;
     padding-right: 70px;
     text-align: justify;
 }
 
-.cursiva{ 
+.cursiva {
     font-style: italic;
 }
 
@@ -78,9 +79,9 @@ padding-bottom: 3px;
     align-items: center;
     background-color: #191414;
     border: none;
- }
+}
 
- @media (min-width: 1478px) {
+@media (min-width: 1478px) {
     .card-img-top {
         width: 40%;
         display: block;
@@ -104,3 +105,35 @@ padding-bottom: 3px;
     }
 }
 
+@media (max-width: 768px),
+(max-width:1023px) {
+    h1 {
+        margin: 0;
+        padding: 5%;
+        padding-bottom: 2%;
+        font-size: 65px;
+    }
+
+    .biografia__resto,
+    .biografia__historia {
+        margin: 3%;
+        padding: 3%;
+    }
+
+    .biografia {
+        display: block;
+    }
+
+    .card {
+        margin: auto;
+
+        li {
+            font-size: 18px;
+        }
+    }
+
+    ul,
+    ol {
+        padding-left: 0rem;
+    }
+}

@@ -20,7 +20,7 @@ header {
 .nav-link {
     font-family: "Oswald";
     font-size: 17px;
-    padding: 2vh; 
+    padding: 2vh;
     color: black;
 
     &:hover {
@@ -51,4 +51,5 @@ nav {
         padding-right: var(--bs-navbar-nav-link-padding-x);
         padding-left: var(--bs-navbar-nav-link-padding-x);
         padding: 3vh;
-    }   }
+    }
+}

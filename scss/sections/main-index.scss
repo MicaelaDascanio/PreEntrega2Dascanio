@@ -1,5 +1,5 @@
-main{ 
-    min-height: 100vh;
+main {
+    min-height: 120vh;
     /* width: 100%; */
 }
 
@@ -9,34 +9,36 @@ main{
     }
 
     min-height: 100vh;
-    h1{
+
+    h1 {
         padding: 5vh;
         text-align: center;
     }
 
 }
 
-.container{
+.container {
     display: grid;
-    grid-template-columns: repeat(2, 2fr); 
+    grid-template-columns: repeat(2, 2fr);
     grid-gap: 5vh;
     padding: 4vh;
     align-items: center;
     padding-bottom: 5vh;
-    h1{
+
+    h1 {
         text-align: left;
     }
 
-    img{
+    img {
         width: 100%;
         padding: 3vh;
         margin-top: 14vh;
     }
 
-    p{
+    p {
         font-size: 19px;
         text-align: justify;
-    
+
     }
 
 }
@@ -62,4 +64,5 @@ main{
             padding-top: 2vh;
         }
 
-    }    }
+    }
+}

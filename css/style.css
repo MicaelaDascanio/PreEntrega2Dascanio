@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;1,300;1,400&display=swap");
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family: "Oswald", sans-serif; }
 
 h1 {
@@ -17,7 +21,9 @@ h3 {
   font-size: 25px;
   color: black; }
 
-p, li, a {
+p,
+li,
+a {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 18px;
   color: black; }
@@ -25,6 +31,34 @@ p, li, a {
 * {
   padding: 0px;
   margin: 0px; }
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Oswald", sans-serif; }
+
+h1 {
+  padding: 5vh;
+  text-align: center;
+  font-size: 70px;
+  color: black; }
+
+h2 {
+  font-size: 40px;
+  color: black; }
+
+h3 {
+  font-size: 25px;
+  color: black; }
+
+p,
+li,
+a {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  color: black; }
 
 header img {
   width: 38%;
@@ -61,7 +95,7 @@ nav ul li {
     padding: 3vh; } }
 
 main {
-  min-height: 100vh;
+  min-height: 120vh;
   /* width: 100%; */ }
 
 .main-index {
@@ -175,6 +209,26 @@ main {
   .card .card h5 {
     font-size: 16px; } }
 
+@media (max-width: 768px), (max-width: 1023px) {
+  h1 {
+    margin: 0;
+    padding: 5%;
+    padding-bottom: 2%;
+    font-size: 65px; }
+  .biografia__resto,
+  .biografia__historia {
+    margin: 3%;
+    padding: 3%; }
+  .biografia {
+    display: block; }
+  .card {
+    margin: auto; }
+    .card li {
+      font-size: 18px; }
+  ul,
+  ol {
+    padding-left: 0rem; } }
+
 .gallery-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -227,7 +281,7 @@ main {
   align-content: center;
   justify-content: space-evenly;
   align-items: center;
-  padding-top: 40px; }
+  padding-top: 30px; }
   .disco h2 {
     padding: 3vh;
     font-size: 50px;
@@ -260,6 +314,20 @@ main {
   width: 100%;
   padding: 8px; }
 
+@media (max-width: 768px), (max-width: 1023px) {
+  .disco {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center; }
+    .disco h2 {
+      width: 10em;
+      text-align: center; }
+    .disco .card {
+      width: 80% !important; } }
+
 .formulario {
   display: flex;
   flex: wrap;
@@ -279,13 +347,27 @@ main {
   color: white;
   padding: 7px; }
 
+@media (max-width: 768px), (max-width: 1023px) {
+  .formulario {
+    display: block;
+    padding: 2vh; }
+    .formulario img {
+      margin: auto;
+      width: 100%;
+      padding: 2vh; }
+    .formulario .boton {
+      padding: 2px;
+      font-size: 20px; } }
+
 .footer__flex {
   display: flex;
   align-content: center;
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-  height: 10vh; }
+  height: 10vh;
+  margin-top: 1rem;
+  margin-bottom: 0; }
   .footer__flex p {
     font-family: "Oswald";
     font-size: 15px;
