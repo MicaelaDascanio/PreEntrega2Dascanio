@@ -1,17 +1,17 @@
  // VARIABLES VAN SIEMPRE ARRIBA DE TODO
- @import "./utilities/_colors";
- @import "./utilities/_typo";
+ @import "./utilities/colors";
+ @import "./utilities/typo";
 
- @import "./sections/_titles-text";
 
- @import "./utilities/_reset";
- @import "./sections/_titles-text";
+
+ @import "./utilities/reset";
+ @import "./utilities/titles-text"; 
  // SECCIONES
 
- @import "./sections/header.scss";
- @import "./sections/main-index.scss";
- @import "./sections/main-biografia.scss";
- @import "./sections/main-galeria.scss";
- @import "./sections/main-discografia.scss";
- @import "./sections/main-contacto.scss";
- @import "./sections/footer.scss";
+ @import "./sections/header";
+ @import "./sections/main-index";
+ @import "./sections/main-biografia";
+ @import "./sections/main-galeria";
+ @import "./sections/main-discografia";
+ @import "./sections/main-contacto";
+ @import "./sections/footer";

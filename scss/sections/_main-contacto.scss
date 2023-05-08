@@ -13,19 +13,19 @@
 
     padding: 10px;
 
-    label{
+    label {
         font-family: $titulo;
         font-size: 20px;
     }
 }
 
 .foto {
-     width: 40%;
- }
+    width: 40%;
+}
 
 .form {
     width: 30%;
- }
+}
 
 .boton {
     background-color: $violeta;
@@ -34,18 +34,18 @@
     font-size: 25px;
     color: white;
     padding: 5px;
-    
-   
+
+
 }
 
-.nombre{
+.nombre {
     margin-bottom: 1rem;
 }
 
 @media (max-width: 768px),
 (max-width:1023px) {
     .formulario {
-       display: block;
+        display: block;
 
         img {
             margin: auto;
@@ -58,7 +58,8 @@
             font-size: 20px;
         }
 
-        .foto, .form{
+        .foto,
+        .form {
             width: 100%;
         }
     }

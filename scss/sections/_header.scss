@@ -13,7 +13,7 @@ header {
 
 .bg-body-tertiary {
     background-color: $lila !important;
-// height: 8vh;
+    // height: 8vh;
 }
 
 .nav-link.active,
@@ -53,13 +53,14 @@ nav {
         padding: 3vh;
     }
 
-    
-.bg-body-tertiary {
-height: 8vh;
-}
-header{
-    img{
-        width: 30%;
+
+    .bg-body-tertiary {
+        height: 8vh;
     }
-}
+
+    header {
+        img {
+            width: 30%;
+        }
+    }
 }

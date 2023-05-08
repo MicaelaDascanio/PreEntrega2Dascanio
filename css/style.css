@@ -1,33 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;1,300;1,400&display=swap");
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: "Oswald", sans-serif; }
-
-h1 {
-  padding: 5vh;
-  text-align: center;
-  font-size: 70px;
-  color: black; }
-
-h2 {
-  font-size: 40px;
-  color: black; }
-
-h3 {
-  font-size: 25px;
-  color: black; }
-
-p,
-li,
-a {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 18px;
-  color: black; }
-
 * {
   padding: 0px;
   margin: 0px; }
@@ -377,7 +349,8 @@ main {
     .formulario .boton {
       padding: 2px;
       font-size: 20px; }
-    .formulario .foto, .formulario .form {
+    .formulario .foto,
+    .formulario .form {
       width: 100%; } }
 
 .footer__flex {
