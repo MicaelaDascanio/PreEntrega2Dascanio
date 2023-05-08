@@ -1,14 +1,26 @@
 .formulario {
     display: flex;
-    flex: wrap;
-    flex-direction: row;
+    flex-wrap: wrap;
     align-content: center;
     justify-content: center;
-    gap: 9vh;
     align-items: center;
-    padding-top: 10vh;
-    width: 100%;
+    gap: 4%;
+
+    img {
+        width: 100%;
+
+    }
+
+    padding: 10px;
 }
+
+.foto {
+     width: 40%;
+ }
+
+.form {
+    width: 30%;
+ }
 
 .boton {
     background-color: $violeta;
@@ -16,14 +28,15 @@
     font-family: $titulo;
     font-size: 25px;
     color: white;
-    padding: 7px;
+    padding: 5px;
+    
+   
 }
 
 @media (max-width: 768px),
 (max-width:1023px) {
     .formulario {
-        display: block;
-        padding: 2vh;
+       display: block;
 
         img {
             margin: auto;
@@ -34,6 +47,10 @@
         .boton {
             padding: 2px;
             font-size: 20px;
+        }
+
+        .foto, .form{
+            width: 100%;
         }
     }
 }
